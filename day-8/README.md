@@ -6,6 +6,11 @@ https://docs.docker.com/ai/model-runner/
 
 https://hub.docker.com/r/ai/
 
+#pip install flask_caching
+#pip install flask_limiter
+#pip install flask_swagger_ui
+#pip install python-dotenv
+
 
 #docker model -h           #to see the docker model
 
@@ -32,7 +37,7 @@ https://hub.docker.com/r/ai/
 #vi .env         #        Set llm model which available on your machine
 LLM_MODEL_NAME=ai/smollm2
 
-#./run.sh       
+#.\py-genai\run_app.sh      
 
 
 Open your browser and visit the following links:
@@ -44,6 +49,7 @@ http://localhost:8081 for the GenAI Application in Python
 http://localhost:8082 for the GenAI Application in Node
 
 http://localhost:8083 for the GenAI Application in Rust
+
 
 
 
