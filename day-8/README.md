@@ -35,6 +35,15 @@ LLM_MODEL_NAME=ai/smollm2
 #./run.sh       
 
 
-Open browser and use local:8081
+Open your browser and visit the following links:
+
+http://localhost:8080 for the GenAI Application in Go
+
+http://localhost:8081 for the GenAI Application in Python
+
+http://localhost:8082 for the GenAI Application in Node
+
+http://localhost:8083 for the GenAI Application in Rust
+
 
 
